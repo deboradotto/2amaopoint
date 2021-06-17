@@ -1,0 +1,142 @@
+/* Write some CSS below */
+
+.cabeçalho{
+	background-image: url('https://coresites-cdn-adm.imgix.net/twc/wp-content/uploads/2015/10/iStock_000038503842_XXXLarge1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding:  140px 0;
+
+}
+
+h3{
+	font-family: sans-serif;
+	text-align: center;
+	margin: 5px 18%;
+	font-size: 50px;
+}
+
+
+.agendamento{
+	display:  grid;
+	grid-template-columns:  2fr 1fr;
+	grid-gap:  25px;
+	align-content: center;
+
+}
+
+.atributos{
+	display:  grid;
+	grid-template-columns:  1fr 1fr 1fr;
+	grid-gap:  35px;
+	align-content: center;
+	vertical-align: center;
+	font-weight: bold;
+}
+
+.cards-atributos img{
+	width: 120px;
+	height: 120p;
+	margin:  0px;
+	positon:  center;
+}
+
+.quem-somos{
+	color:  #191970;
+	text-align: center;
+}
+
+.quem-somos h2{
+	color:  #C70039;
+}
+
+.seleção{
+	background:  #191970;
+	box-shadow: 0 0 5px rgba(50,86,12,0.3);
+	border-radius: 10px;
+	color:  white;
+	text-align: center;
+	width: 400px;
+	height: 420px;
+	margin-left: 25%;
+	font-weight: bold;
+	margin-top:  30px;
+}
+
+.label{
+	margin-left:  27px;
+	text-align: left;
+}
+
+body{
+	color: #191970;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+select{
+	background-color: #F9F3F3;
+	font-size: 25px;
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: #191970;
+	height:  auto;
+	font-style: bold ;
+	color: #C70039 ;
+	box-shadow: 0 0 5px rgba(50,86,12,0.3);
+}
+
+option{
+	color: #C70039 ;
+}
+
+input{
+	background-color: #F9F3F3;
+	font-size: 25px;
+	border-radius: 4px;
+	border-color: #191970;
+	height:  30px;
+	color: #C70039 ;
+	box-shadow: 0 0 5px rgba(50,86,12,0.3);
+	padding-left:30px;
+
+}
+
+.botao-vermelho {
+background-color: #C70039;
+color:  white;
+padding:  16px 48px;
+border-radius:  15px;
+display: inline-block;
+text-decoration: none;
+}
+
+.botao-vermelho:hover {
+background-color: #C64756;
+color:  white;
+}
+
+.criar-senha{
+	text-decoration: none;
+	font-size: 20px ;
+	color:  white;
+	font-weight: lighter;
+}
+
+
+.icone-email{
+
+	background-image: url('images/email.png');
+	background-repeat: no-repeat; 
+	background-position: 5px 5px;
+	background-size: 20px 20px;
+	vertical-align: center;
+}
+
+.icone-senha{
+
+	background-image: url('images/padlock.png');
+	background-repeat: no-repeat; 
+	background-position: 5px 5px;
+	background-size: 20px 20px;
+	vertical-align: center;
+}

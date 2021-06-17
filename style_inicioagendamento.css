@@ -1,0 +1,131 @@
+/* Write some CSS below */
+
+.cabeçalho{
+	background-image: url('https://coresites-cdn-adm.imgix.net/twc/wp-content/uploads/2015/10/iStock_000038503842_XXXLarge1.jpg');
+	background-size: cover;
+	vertical-align: center;
+	padding:  80px 0;
+}
+
+
+.boas-vindas{
+	font-family: sans-serif;
+	text-align: center;
+	background-image: url('images/calendar_azul.png');
+	background-repeat: no-repeat; 
+	background-position: 300px 0px;
+	background-size: 80px 80px;;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 40px;
+	height: 130px;
+}
+
+.agendamento{
+	display:  grid;
+	grid-template-lines: 1fr 1fr 1fr;
+	grid-gap:  10px;
+	align-content: center;
+	vertical-align: center;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.seleção{
+	border-radius: 10px;
+	color:  #191970;
+	width: 100%;
+	height: 140px;
+	padding: 0;
+}
+
+
+body{
+	color: #191970;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+select{
+	background-color: #F9F3F3;
+	font-size: 25px;
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: #191970;
+	color: #C70039 ;
+	box-shadow: 0 0 5px rgba(50,86,12,0.3);
+	width: 300px;
+}
+
+option{
+	color: #C70039 ;
+}
+
+input{
+	background-color: #F9F3F3;
+	font-size: 25px;
+	border-radius: 4px;
+	border-color: #191970;
+	height:  30px;
+	color: #C70039 ;
+	vertical-align: middle;
+	size:  80px;
+	text-align: center;
+	width: 50px;
+
+}
+
+label{
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+
+.botao-azul {
+background-color: #191970;
+color:  white;
+padding:  16px 48px;
+border-radius:  15px;
+display: inline-block;
+text-decoration: none;
+}
+
+.botao-azul:hover {
+background-color: #47597E;
+color:  white;
+}
+
+.botao-vermelho {
+background-color: #C70039;
+color:  white;
+padding:  16px 48px;
+border-radius:  15px;
+display: inline-block;
+text-decoration: none;
+}
+
+.botao-vermelho:hover {
+background-color: #C64756;
+color:  white;
+}
+
+.propagandas{
+	width:  25%;
+	height: 50%;
+	float:  right;
+	padding:  10% 10px;
+
+}
+
+.propagandas img{
+	width:  100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+
+
+
